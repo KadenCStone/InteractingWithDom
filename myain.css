@@ -1,0 +1,56 @@
+body{
+    padding: 0px 400px;
+    background-color: rgb(216, 206, 206);
+}
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.item:first-child, .item:nth-child(2), .item:nth-child(3), .item:nth-child(4), .item:nth-child(5), .item:nth-child(6), .item:nth-child(7), .item:nth-child(8), .item:nth-child(9){
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+.item.price{
+    float: left;
+}
+
+  #clickMe {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding:10px;
+    font-family: Helvetica;
+    border-radius: 10px;
+  }
+  
+  #clickMe:hover {
+    cursor: pointer;
+  }
+  #title {
+    margin: 10px;
+    border-bottom: black, 25px;
+  }
+  h1 {
+    border-bottom: black;
+}
+  .darkMode{
+    background-color: rgba(0, 0, 0, 0.582);
+    color: lightgray;
+    
+  }
+  .darkMode .item:first-child, .darkMode .item:nth-child(2), .darkMode .item:nth-child(3), .darkMode .item:nth-child(4), .darkMode .item:nth-child(5), .darkMode .item:nth-child(6), .darkMode .item:nth-child(7), .darkMode .item:nth-child(8), .darkMode .item:nth-child(9){
+    background-color: darkgray;
+    color: white;
+    border: 2px solid white;
+  }
+  .darkMode #clickMe {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.582);
+ 
+  }
+
